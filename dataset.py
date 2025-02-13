@@ -23,7 +23,7 @@ def load_wave_data(config:Config):
     data['y'] = dataset.variables['y'][:]
     data['lon'] = dataset.variables['lon'][:]
     data['lat'] = dataset.variables['lat'][:]
-    data['nv'] = dataset.variables['nv'][:]
+    # data['nv'] = dataset.variables['nv'][:]
     data['t'] = dataset.variables['Itime'][:]
     data['t2'] = dataset.variables['Itime2'][:]
     data['h'] = dataset.variables['h'][:]
